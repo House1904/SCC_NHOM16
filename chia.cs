@@ -9,7 +9,7 @@ class Program
         a = double.Parse(Console.ReadLine());
         b = double.Parse(Console.ReadLine());
 
-        c = TinhChia(so1, so2);
+        c = TinhChia(a, b);
 
         Console.WriteLine(c);
     }
