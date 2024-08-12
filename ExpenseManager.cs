@@ -3,8 +3,8 @@ namespace MonthlyExpenseManager
 // 2. Lớp ExpenseManager: Xử lý logic chính của ứng dụng
 public class ExpenseManager
 {
-    private List<Transaction> transactions;
-    private Dictionary<string, decimal> budget; 
+    private List<Transaction> transactions;  //danh sách các giao dịch
+    private Dictionary<string, decimal> budget; //thư viện ngân sách
 
     public ExpenseManager()
     {
